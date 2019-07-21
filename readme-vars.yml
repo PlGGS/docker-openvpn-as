@@ -27,9 +27,9 @@ param_volumes:
   - { vol_path: "/config", vol_host_path: "<path to data>", desc: "Where openvpn-as should store configuration files." }
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "943", internal_port: "943", port_desc: "Admin GUI port." }
-  - { external_port: "9443", internal_port: "9443", port_desc: "TCP port." }
-  - { external_port: "1194", internal_port: "1194/udp", port_desc: "UDP port." }
+  - { external_port: "944", internal_port: "944", port_desc: "Admin GUI port." }
+  - { external_port: "9444", internal_port: "9444", port_desc: "TCP port." }
+  - { external_port: "1195", internal_port: "1195/udp", port_desc: "UDP port." }
 param_device_map: false
 cap_add_param: true
 cap_add_param_vars:
