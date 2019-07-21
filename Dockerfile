@@ -41,5 +41,5 @@ RUN \
 COPY /root /
 
 # ports and volumes
-EXPOSE 943/tcp 1194/udp 9443/tcp
+EXPOSE 944/tcp 1195/udp 9444/tcp
 VOLUME /config
